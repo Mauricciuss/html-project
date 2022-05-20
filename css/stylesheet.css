@@ -1,0 +1,55 @@
+.no-start {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.abs-pos {
+    position: fixed;
+}
+
+.l {
+    display:block;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    text-decoration: none;
+    color:black;
+}
+
+.l:hover {
+    color: white;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.luxurious {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.bruh {
+    background-color: orange;
+}
+
+.vrch {
+    z-index: 5000;
+}
